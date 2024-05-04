@@ -5,15 +5,15 @@ export const dynamic = "force-dynamic";
 export async function GET() {
   try {
     const endpoints = [
-      "https://meeting10.mobifone.vn/api/status",
-      "https://meeting18.mobifone.vn/api/status",
-      "https://meeting19.mobifone.vn/api/status",
+      // "https://meeting10.mobifone.vn/api/status",
+      // "https://meeting18.mobifone.vn/api/status",
+      // "https://meeting19.mobifone.vn/api/status",
       "https://meeting41.mobifone.vn/api/status",
-      "https://meeting42.mobifone.vn/api/status",
-      "https://meeting43.mobifone.vn/api/status",
-      "https://meeting50.mobifone.vn/api/status",
-      "https://meeting51.mobifone.vn/api/status",
-      "https://meeting52.mobifone.vn/api/status",
+      // "https://meeting42.mobifone.vn/api/status",
+      // "https://meeting43.mobifone.vn/api/status",
+      // "https://meeting50.mobifone.vn/api/status",
+      // "https://meeting51.mobifone.vn/api/status",
+      // "https://meeting52.mobifone.vn/api/status",
     ];
 
     const counts = await Promise.all(
