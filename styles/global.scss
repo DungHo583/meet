@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "styles/addon.scss";
+
+.adm-overflow-hidden {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+iframe {
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+iframe {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+iframe body {
+  margin: 0;
+  padding: 0;
+}

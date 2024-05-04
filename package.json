@@ -1,0 +1,40 @@
+{
+  "name": "meet-tgtw",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 next dev",
+    "build": "next build",
+    "db:gen-migration": "drizzle-kit generate:mysql --schema=db/schema.ts --out=db/drizzle",
+    "db:run-migration": "tsx db/migrate.ts",
+    "db:migrate": "pnpm db:gen-migration && pnpm db:run-migration",
+    "db:studio": "drizzle-kit studio --config=db/drizzle.config.ts"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.11.0",
+    "drizzle-orm": "^0.29.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.6.5",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hls-player": "^3.0.7",
+    "react-icons": "^4.12.0",
+    "sass": "^1.69.5",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "drizzle-kit": "^0.20.6",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "tsx": "^4.6.1",
+    "typescript": "^5"
+  }
+}

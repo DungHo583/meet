@@ -1,0 +1,1 @@
+ALTER TABLE `configs` ADD `delta` int DEFAULT 0;
