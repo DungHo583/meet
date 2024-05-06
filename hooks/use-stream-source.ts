@@ -2,7 +2,7 @@ import { take } from "lodash";
 import { useEffect, useState } from "react";
 
 const sources = [
-  // "https://meeting10.mobifone.vn/hls/stream.m3u8",
+  "https://meeting10.mobifone.vn/hls/stream.m3u8",
   // "https://meeting18.mobifone.vn/hls/stream.m3u8",
   // "https://meeting19.mobifone.vn/hls/stream.m3u8",
   // "https://meeting41.mobifone.vn/hls/stream.m3u8",

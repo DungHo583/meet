@@ -5,7 +5,7 @@ export const dynamic = "force-dynamic";
 
 export const GET = withTryCatch(async (req) => {
   const endpoints = [
-    // "https://meeting10.mobifone.vn/api/status",
+    "https://meeting10.mobifone.vn/api/status",
     // "https://meeting18.mobifone.vn/api/status",
     // "https://meeting19.mobifone.vn/api/status",
     // "https://meeting41.mobifone.vn/api/status",
